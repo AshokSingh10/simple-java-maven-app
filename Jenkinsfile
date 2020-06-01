@@ -8,12 +8,6 @@ pipeline {
 	agent any
 	 
     stages {
-        stage('Checkout') {
-            steps {
-                git 'https://github.com/AshokSingh10/simple-java-maven-app.git'
-            }
-            
-        }
         
         stage('Build') {
             
